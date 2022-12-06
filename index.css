@@ -12,12 +12,49 @@ body {
     cursor: img('/public/images/nagisa.png'), auto;
 }
 
+footer {
+    background-color: transparent;
+    position: sticky;
+    height: 5%;
+}
+
 #first {
-    background-color: rgba(0, 0, 0, 0.776);
+    background-color: #202020;
     height: 100vh;
     width: 100vw;
     display: block;
     text-align: center;
+}
+
+#second {
+    padding-top: 10vh;
+    background-color: #202020;
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    text-align: center;
+}
+
+#third {
+    padding-top: 10vh;
+    background-color: bisque;
+}
+
+#fourth {
+    padding-top: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-color: #202020;
+}
+
+#fifth {
+    padding-top: 10vh;
+    background-color: bisque;
+}
+
+#sixth {
+    padding-top: 10vh;
+    background-color: #202020;
 }
 
 #opener {
@@ -42,6 +79,7 @@ body {
 
 #intro {
     font-family: 'Italiana', sans-serif;
+    font-weight: bold;
     display: inline-block;
     justify-content: center;
     text-align: center;
@@ -58,6 +96,8 @@ body {
 nav {
     width: 100%;
     max-height: 50px;
+    position: absolute;
+    bottom: 5%;
   }
 
 nav > ol {
@@ -69,10 +109,14 @@ nav > ol {
 
 .button1 {
     margin-top: 10px;
-    padding: 3px;
+    height: 50px;
+    width:fit-content;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 2px;
     border-radius: 3px;
-    background-color: bisque;
+    background-color: #ffe4c4;
     font-family: 'Bebas Neue';
 }
 
@@ -87,4 +131,31 @@ nav > ol {
 
 .button1 > a:visited {
     text-decoration: none;
+}
+
+#searchtech {
+    width: 600px;
+    height: auto;
+}
+
+#name {
+    color: white;
+    font-family: 'Bebas Neue', auto;
+    font-size: 100px;
+    padding-bottom: 5px;
+}
+
+#pronouns {
+    padding-bottom: 5vh;
+    color: white;
+    font-family: 'Italiana', auto;
+    font-size: 20px;
+}
+
+#aboutme {
+    color: white;
+    max-width: 40%;
+    font-family: 'Italiana', auto;
+    font-weight: bold;
+    font-size: 16px;
 }
