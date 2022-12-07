@@ -41,10 +41,12 @@ footer {
 }
 
 #fourth {
+    display: flex;
     padding-top: 10vh;
     background-color: #202020;
     box-sizing: border-box;
     padding-left: 5%;
+
 }
 
 #fifth {
@@ -139,6 +141,10 @@ nav > ol {
     height: auto;
 }
 
+#profile {
+    max-width: 50%;
+}
+
 #name {
     color: white;
     font-family: 'Bebas Neue', auto;
@@ -156,7 +162,6 @@ nav > ol {
 
 #aboutme {
     color: white;
-    max-width: 40%;
     font-family: 'Italiana', auto;
     font-weight: bold;
     font-size: 16px;
@@ -245,4 +250,11 @@ nav > ol {
 .techs {
     height: 100px;
     width: 100px;
+}
+
+#me {
+    height: 500px;
+    width: auto;
+    float: right;
+    transform: scaleX(-1);
 }
