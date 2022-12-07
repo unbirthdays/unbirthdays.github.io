@@ -141,11 +141,6 @@ nav > ol {
     height: auto;
 }
 
-#profile {
-    max-width: 50%;
-    float: left;
-}
-
 #name {
     color: white;
     font-family: 'Bebas Neue', auto;
@@ -253,9 +248,15 @@ nav > ol {
     width: 100px;
 }
 
+#profile {
+    max-width: 50%;
+    float: left;
+}
+
 #me {
-    height: 500px;
+    height: 80vh;
     width: auto;
     float: right;
     transform: scaleX(-1);
+    vertical-align: middle;
 }
