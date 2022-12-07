@@ -42,9 +42,9 @@ footer {
 
 #fourth {
     padding-top: 10vh;
-    padding-left: 10vw;
-    padding-right: 10vw;
     background-color: #202020;
+    box-sizing: border-box;
+    padding-left: 5%;
 }
 
 #fifth {
@@ -86,6 +86,7 @@ footer {
     font-size: 20px;
     color: white;
     width: 75%;
+    text-shadow: 1px 1px 5px tomato;
 }
 
 #star {
@@ -143,6 +144,7 @@ nav > ol {
     font-family: 'Bebas Neue', auto;
     font-size: 100px;
     padding-bottom: 5px;
+    text-shadow: 1px 1px 5px tomato;
 }
 
 #pronouns {
@@ -158,4 +160,89 @@ nav > ol {
     font-family: 'Italiana', auto;
     font-weight: bold;
     font-size: 16px;
+}
+
+#foot {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.navbar {
+  background-color: transparent;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 50px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 100%;      
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: tomato;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 45px;
+}
+
+.grid-container {
+    display: inline-grid;
+    column-gap: 300px;
+    row-gap: 50px;
+    padding: 5%;
+  }
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+.two {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.three {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.four {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.five {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.six {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.seven {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.eight {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.nine {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.techs {
+    height: 100px;
+    width: 100px;
 }
