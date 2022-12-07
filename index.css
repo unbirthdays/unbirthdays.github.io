@@ -143,6 +143,7 @@ nav > ol {
 
 #profile {
     max-width: 50%;
+    float: left;
 }
 
 #name {
