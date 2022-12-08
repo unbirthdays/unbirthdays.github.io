@@ -448,9 +448,3 @@ nav > ol {
   #contactText {
     color: white;
   }
-
-  #LinkedInBadge {
-    float: right;
-    height: 60vh;
-    width: 30vw;
-  }
