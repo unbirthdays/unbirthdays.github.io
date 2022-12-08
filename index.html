@@ -21,8 +21,8 @@
             to make random websites like this one.</span><br><br><br>
             <nav>
                 <ol>
-                    <li><button class="button1"><a href="#second">Tech Stack</a></button></li>
-                    <li><button class="button1"><a href="#third">Projects</a></button></li>
+                    <li><button class="button1"><a href="#searchtech">Tech Stack</a></button></li>
+                    <li><button class="button1"><a href="#projectTitle">Projects</a></button></li>
                     <li><button class="button1"><a href="#fourth">About Me</a></button></li>
                     <li><button class="button1"><a href="#fifth">Resume</a></button></li>
                     <li><button class="button1"><a href="#sixth">Contact</a></button></li>
@@ -107,7 +107,20 @@
           </div>
     </div>
     <div class="page" id="third">
-        
+        <h3 id="projectTitle">PROJECTS</h3><br>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 1</div>
+              <iframe src="https://www.youtube.com/embed/BJZIrFxz_fc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p class="project">No More Nahs!<br>Full-stack Development project<br><b>Tech used:</b> <em>Javascript, HTML, CSS, Node, Axios, Express, SQL, Sequelize, PostgreSQL, Heroku, Jest, Postman API, REST APIs, database creation</em></p>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+          </div>
+      
     </div>
     <div class="page" id="fourth">
         <div id="profile">
@@ -127,18 +140,26 @@
         <div id="avatar"><img id="me" src="/public/images/me.png"/></div>
     </div>
     <div class="page" id="fifth">
+        <h3 id="resumeTitle">Resume</h3><br><br><div id="workWithMe">Work with me!</div><br>
+        <embed src="/public/images/Resume.pdf" #toolbar=0 width="80%" height="75%"></embed>
     </div>
     <div class="page" id="sixth">
+        <h3 id="contactTitle">Want to talk to me?</h3><br>
+        <div class="badge-base LI-profile-badge" id="LinkedInBadge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="sbaccam" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/sbaccam?trk=profile-badge"></a></div>
+        <br>
+        <div id="contactText">
+            As I determine how I want anyone to contact me, this page may remain a bit empty!
+        </div>
     </div>
     <div id="foot">
     <div class="navbar">
         <a href="#opener">^</a>
     </div>
       </div>
-    <footer> </footer>
 </body>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="index.js"></script>
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
