@@ -151,7 +151,7 @@ nav > ol {
 #name {
     color: white;
     font-family: 'Bebas Neue', auto;
-    font-size: 100px;
+    font-size: 15vh;
     padding-bottom: 5px;
     text-shadow: 1px 1px 5px tomato;
 }
@@ -160,7 +160,7 @@ nav > ol {
     padding-bottom: 5vh;
     color: white;
     font-family: 'Italiana', auto;
-    font-size: 20px;
+    font-size: 4vh;
 }
 
 #aboutme {
@@ -168,6 +168,7 @@ nav > ol {
     font-family: 'Italiana', auto;
     font-weight: bold;
     font-size: 16px;
+    line-height: 3vh;
 }
 
 #foot {
