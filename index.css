@@ -95,6 +95,7 @@ footer {
     color: white;
     width: 75%;
     text-shadow: 1px 1px 5px tomato;
+    line-height: 4vh;
 }
 
 #star {
