@@ -205,6 +205,8 @@ nav > ol {
     column-gap: 300px;
     row-gap: 50px;
     padding: 5%;
+    width: 80%;
+    height: 65vh;
   }
 
 .one {
