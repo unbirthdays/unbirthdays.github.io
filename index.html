@@ -6,6 +6,8 @@
 	<link href="index.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Italiana">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas Neue">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 </head>
 <body>
     <header>
@@ -14,7 +16,7 @@
     <div class="page" id="first">
         <br><br>
         <h1 id="opener"><img id="opengif" src="/public/images/PortfolioPic.gif"/></h1>
-        <img id="star" src="/public/images/star.gif"/><br>
+        <img class="star" src="/public/images/star.gif"/><br>
         <span id="intro"><br>Hi, I'm Sabrina. I'm a budding software engineer that has an interest in data science.
             My studies involve Python, SQL, data cleansing, data interpretation, data modeling, data visualization,
             and a bunch of other things where I take data and make sense of it. I also learned some web development 
@@ -146,8 +148,35 @@
     <div class="page" id="sixth">
         <h3 id="contactTitle">Want to talk to me?</h3><br>
         <br>
-        <div id="contactText">
-            As I determine how I want anyone to contact me, this page may remain a bit empty!
+        <div id="reply">
+            <div id="contactText">
+                <form action="https://formsubmit.co/sbaccamorganization@gmail.com" method="POST">
+                    <input type="email" class="contacting" name="returnemail" placeholder="Email Address" required><br>
+                    <input type="text" class="contacting" name="name" placeholder="Name" required><br>
+                    <input type="text" class="contacting" name="subject" placeholder="Subject" required><br>
+                    <textarea class="contacting" id="emailbox" name="message" placeholder="Write your message here" required></textarea><br>
+                    <br>
+                    <button id="submitBtn" type="submit">S E N D</button>
+                </form>
+            </div>
+            <div id="speech">
+                <span id="speeching">
+                    <img class="star" src="/public/images/star.gif"/><br><br>
+                    
+                    Please keep in mind that I may need some time to get through emails before getting to yours.<br>
+                    Right now I am taking a break from working until the middle of March in order to upskill.
+                    However, I am more than willing to take interviews and phone calls about future employment as a data analyst in the meantime.
+                    <br>
+                    Please do not email me at any email with any files, images, or other media if it is your inital email.<br><br><br>
+                    If you are a former student or colleague of mine, I will absolutely accept emails with a joke or riddle. If you are inquiring for help regarding my recruiting background
+                    or to ask me to review your resume, I will get back to you as soon as possible.
+                    <br><br>
+                    Thank you for being considerate with my timing. Bisous!
+
+                    <br><br>
+                    <img class="star" src="/public/images/star.gif"/>
+                </span>
+            </div>
         </div>
     </div>
     <div id="foot">
