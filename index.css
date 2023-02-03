@@ -504,6 +504,10 @@ nav > ol {
     font-family: 'Nunito';
   }
 
+  #submitBtn:hover {
+    cursor: pointer;
+  }
+
   #speech {
     align-items: right;
     text-align: center;
