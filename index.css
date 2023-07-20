@@ -281,7 +281,7 @@ nav > ol {
     height: 80vh;
     width: auto;
     float: right;
-    transform: scaleX(-1);
+    padding-left: 5vw;
     vertical-align: middle;
 }
 
