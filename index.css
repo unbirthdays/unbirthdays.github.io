@@ -138,6 +138,7 @@ button {
   position: relative;
   background-color: #FFFCE3;
   box-shadow: rgba(233, 30, 99, 0.5);
+  letter-spacing: 2px;
 }
 
 button::after,
@@ -250,7 +251,7 @@ button:hover::before {
   border-radius: 25px;
   display: block;
   justify-content: center;
-  background-image: url("/public/images/testing.jpg");
+  background-image: url("/public/images/pine.jpg");
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
@@ -564,6 +565,7 @@ button:hover::before {
   width: 90vw;
   height: 50vh;
   display: block;
+  text-align: center;
 }
 
 form {
