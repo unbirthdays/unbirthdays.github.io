@@ -45,7 +45,7 @@ body {
   background-color: #FFFCE3;
   height: 100%;
   text-align: center;
-  padding: 14px;
+  padding-top: 14px;
 
   max-width: 100vw;
   max-height: 100vh;
@@ -54,7 +54,6 @@ body {
 #third {
   height: 100%;
   background-color: #FFFCE3;
-  padding-left: 5%;
   max-width: 100vw;
   max-height: 100vh;
 }
@@ -65,7 +64,6 @@ body {
   background-image: url("/public/images/mesh-gradient.png");
   background-size: cover;
   padding-top: 2%;
-  padding-left: 5%;
   max-width: 100vw;
   max-height: 100vh;
 }
@@ -74,7 +72,6 @@ body {
   height: 100%;
   width: 100%;
   padding-top: 5%;
-  padding-left: 5%;
   background-image: url("/public/images/beans.jpg");
   background-size: cover;
   max-width: 100vw;
@@ -85,7 +82,6 @@ body {
   height: 90%;
   width: 100%;
   padding-top: 5%;
-  padding-left: 5%;
   display: block;
   justify-items: center;
   max-width: 100vw;
@@ -544,6 +540,14 @@ button:hover::before {
   padding-left: 5%;
 }
 
+#resume {
+  padding-left: 5vw;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* SIXTH PAGE ELEMENTS */
 
 #six-title {
@@ -560,7 +564,6 @@ button:hover::before {
   width: 90vw;
   height: 50vh;
   display: block;
-  justify-items: center;
 }
 
 form {
