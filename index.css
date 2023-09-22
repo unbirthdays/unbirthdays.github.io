@@ -219,6 +219,19 @@ button:hover::before {
   height: 50%;
   padding-bottom: 5%;
   padding-right: 10%;
+  overflow-y: hidden;
+}
+
+#intro:hover {
+  color: #FFFCE3;
+  font-family: 'Raleway';
+  display: flex;
+  margin: 2vh 5vw;
+  font-size: 16px;
+  line-height: 205%;
+  height: 50%;
+  padding-bottom: 5%;
+  padding-right: 10%;
   overflow-y: auto;
 }
 
@@ -391,6 +404,7 @@ button:hover::before {
   width: 40%;
   max-height: 100vh;
   float: right;
+  margin-top: -2.5vh;
 }
 
 
