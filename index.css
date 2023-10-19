@@ -131,7 +131,6 @@ button {
   cursor: pointer;
   padding: 10px 20px;
   font-size: 12px;
-  font-weight: 700;
   color: #1F642E;
   border-radius: 10px;
   text-transform: uppercase;
@@ -504,17 +503,17 @@ button:hover::before {
 .slide {
   width: 100%;
   max-width: 430vw;
-  height: 55vh;
+  height: 100%;
   position: absolute;
   transition: all 0.5s;
-  padding-top: 5%;
   background-color: #a5d2eb;
   font-family: 'Raleway';
   color: #585555;
 } 
+
 .slide p {
   margin: auto;
-  width: 60%;
+  width: 65%;
 }
 
 .btn {
@@ -544,6 +543,10 @@ button:hover::before {
   right: 2%;
 }
 
+.img-party {
+  border-radius: 10px;
+  border: solid 3px #fffce3;
+}
 
 
 /* FIFTH PAGE ELEMENTS */
@@ -580,10 +583,6 @@ button:hover::before {
   width: 90vw;
   height: 50vh;
   display: block;
-  text-align: center;
-}
-
-form {
   text-align: center;
 }
 
