@@ -422,22 +422,42 @@ button:hover::before {
   border-radius: 10px;
   margin-left: 2vw;
   width: 50vw;
-  height: 75vh;
+  height: 68vh;
   max-height: 75vh;
   border: 5px solid #b09563;
   font-family: 'Raleway';
+  overflow-y: auto;
 }
 
 #project-menu {
   color: white;
   text-align: center;
-  margin: 5vh 0;
   font-size: 30px;
+  margin: 5vh 0vh 0vw 0vw;
+}
+
+#reminder {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  margin: 0vh 0vh 3vh 0vw;
 }
 
 #project-list-container {
   overflow-y: auto;
 }
+
+#project-list-container::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+
+#project-list-container::-webkit-scrollbar-thumb {
+  background-color: #fffce3;
+  border-radius: 20px;
+  border: 2px double #ffbf46;
+  height: inherit;
+} 
 
 .projs {
   color: white;
