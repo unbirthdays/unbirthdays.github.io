@@ -252,8 +252,12 @@ button:hover::before {
   justify-content: center;
   vertical-align: middle;
   padding: 5vw;
+  transition: transform .2s ease-in-out;
 }
 
+#me:hover {
+  transform: rotate(360deg);
+}
 
 /* SECOND PAGE ELEMENTS */
 
@@ -566,6 +570,11 @@ button:hover::before {
 .img-party {
   border-radius: 10px;
   border: solid 3px #fffce3;
+  overflow: hidden;
+}
+
+.img-party:hover {
+  transform:scale(1.5);
 }
 
 
