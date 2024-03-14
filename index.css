@@ -661,6 +661,7 @@ button:hover::before {
   height: 50vh;
   display: block;
   text-align: center;
+  margin-inline: auto;
 }
 
 .contacting {
