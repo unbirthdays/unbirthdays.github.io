@@ -570,6 +570,15 @@ button:hover::before {
   padding-top: 5%;
   background-color: #a5d2eb;
   border: 8px double #385275;
+  overflow: auto;
+}
+
+.slider {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+.slider::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
 }
 
 .slide {
