@@ -413,7 +413,7 @@ button:hover::before {
 
 #vines {
   width: 40%;
-  max-height: 100vh;
+  max-height: 95vh;
   float: right;
   margin-top: -2.5vh;
 }
