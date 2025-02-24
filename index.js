@@ -1,6 +1,11 @@
 // Phase 1: Hello, World appears and then disappears. Shows human.
 
-document.addEventListener('click', function (event) {
+document.getElementById("hello").classList.add('disable-clicks');
+setTimeout(() => {
+  document.getElementById("hello").classList.remove('disable-clicks');
+}, 4000);
+
+document.getElementById("hello").addEventListener('click', function (event) {
 	fadeOutAndRemove();
 });
 
