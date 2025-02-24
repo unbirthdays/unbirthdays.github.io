@@ -531,15 +531,15 @@ Red: #A50104
     /* background-size: cover; */
     display: flex;
     height: 40px;
-    max-height: 50px;
+    max-height: 40px;
     z-index: 3;
     padding: 5px;
     margin-bottom: .5vh;
     justify-content: space-evenly;
   }
   
-  #navbar a:link, #navbar a:visited, #navbar a:hover, #navbar a:active {color: #0C6291; text-decoration: none;}
-  
+  #navbar a:link, #navbar a:visited, #navbar a:hover, #navbar a:active {color: #41bdff; text-decoration: none;}
+
   
   .button {
     outline: none;
