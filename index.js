@@ -5,10 +5,6 @@ document.addEventListener('click', function (event) {
 });
 
 function fadeOutAndRemove() {
-	// element.classList.add('fade-out');
-  // element.addEventListener('transitionend', function () {
-  // 	element.parentNode.removeChild(element);
-  // });
   const element = document.getElementById("hello");
   element.remove();
 }
@@ -38,10 +34,10 @@ setTimeout(function() { // Human fades in
     element2.style.margin = 0;
   }, 8000); 
 
-  setTimeout(function() {
-    let element1 = document.getElementById("left-woman");
-    let element2 = document.getElementById("right-woman");
-    element1.style.pointerEvents = auto;
-    element2.style.pointerEvents = auto;
-  }, 9000); 
+  // disables user from clicking into women too early
 
+  document.body.classList.add('disable-clicks');
+
+  setTimeout(() => {
+    document.body.classList.remove('disable-clicks');
+  }, 10000);
